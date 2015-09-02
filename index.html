@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tyler Neisinger Portfolio</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="row">
+        <div class="col-md-4 col-sm-4 col-xs-4">
+          <img class="img-responsive" src="images/udacity-logo.svg" width="100"
+            alt="Udacity logo">
+        </div>
+        <div class="col-md-8 col-sm-8 col-xs-8 text-right text-uppercase">
+          <h1>Tyler Neisinger</h1>
+          <h4>Front-End Ninja</h4>
+        </div>
+      </header>
+      <hr>
+      <div class="row">
+        <div class="col-md-12">
+          <picture>
+            <source media="(min-width: 1200px)"
+              srcset="images/main_large_1x.jpg, images/main_large_2x.jpg 2x">
+            <source media="(min-width: 600px)" srcset="images/main_large_1x.jpg">
+            <img class="img-responsive img-centered" src="images/main_med.jpg"
+              alt="Tyler Neisinger working as a location sound mixer.">
+          </picture>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4 col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+          <img data-target="#project1" data-toggle="modal"
+            class="img-responsive img-centered" src="images/appify_small.jpg" alt="Appify image.">
+          <h3 class="text-uppercase">Appify</h3>
+          <p class="project-url">https://github.com/udacity/Appify</p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-8 col-sm-offset-0 col-xs-offset-2">
+          <img data-target="#project2" data-toggle="modal"
+            class="img-responsive img-centered" src="images/sunflower_small.jpg" alt="Sunflower image.">
+          <h3 class="text-uppercase">Sunflower</h3>
+          <p class="project-url">https://github.com/udacity/Sunflower</p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-md-offset-0 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+          <img data-target="#project3" data-toggle="modal"
+            class="img-responsive img-centered" src="images/bokeh_small.jpg" alt="Bokeh image.">
+          <h3 class="text-uppercase">Bokeh</h3>
+          <p class="project-url">https://github.com/udacity/Bokeh</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Appify Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog"
+      aria-labelledby="modal-label-appify" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h3 class="modal-title text-uppercase" id="modal-label-appify">Appify</h3>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive img-centered" src="images/appify_med.jpg" alt="Appify image">
+            <p>
+              This was my first project in this class. I learned a lot about
+              HTML and CSS. Lorem ipsum dolor sit amet, vero possim consequat te
+              eam. Per ei justo debitis maiorum, te altera consulatu intellegat
+              pro. Ei sonet recteque nam. Eam ne erat paulo soluta.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sunflower Modal -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog"
+      aria-labelledby="modal-label-sunflower" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h3 class="modal-title text-uppercase" id="modal-label-sunflower">Sunflower</h3>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive img-centered" src="images/sunflower_med.jpg" alt="Sunflower image">
+            <p>
+              This was my second project in this class. I learned a lot about
+              HTML and CSS. Lorem ipsum dolor sit amet, vero possim consequat te
+              eam. Per ei justo debitis maiorum, te altera consulatu intellegat
+              pro. Ei sonet recteque nam. Eam ne erat paulo soluta.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bokeh Modal -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog"
+      aria-labelledby="modal-label-bokeh" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h3 class="modal-title text-uppercase" id="modal-label-bokeh">Bokeh</h3>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive img-centered" src="images/bokeh_med.jpg" alt="Bokeh image">
+            <p class="modal-p">
+              This was my third project in this class. I learned a lot about
+              HTML and CSS. Lorem ipsum dolor sit amet, vero possim consequat te
+              eam. Per ei justo debitis maiorum, te altera consulatu intellegat
+              pro. Ei sonet recteque nam. Eam ne erat paulo soluta.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
